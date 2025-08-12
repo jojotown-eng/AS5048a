@@ -106,8 +106,10 @@ int main(void)
     // HAL_Delay(1000);
     // HAL_GPIO_WritePin(User_LED_GPIO_Port, User_LED_Pin, GPIO_PIN_RESET);
     // HAL_Delay(1000);
-    uint8_t msg[] = "hello world!\n\r";
-    HAL_UART_Transmit(&huart2, msg, strlen((char*)msg), 100);
+    // uint8_t msg[] = "hello world!\n\r";
+    // HAL_UART_Transmit(&huart2, msg, strlen((char*)msg), 100);
+
+    
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
