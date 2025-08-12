@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 1
+ARM GAS  C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 1
   28:Core/Src/spi.c **** 
   29:Core/Src/spi.c **** /* SPI1 init function */
   30:Core/Src/spi.c **** void MX_SPI1_Init(void)
-ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 2
+ARM GAS  C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s 			page 2
 
 
   31:Core/Src/spi.c **** {
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 1
   66              		.loc 1 47 32 is_stmt 0 view .LVU16
   67 0022 C361     		str	r3, [r0, #28]
   48:Core/Src/spi.c ****   hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
-ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 3
+ARM GAS  C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s 			page 3
 
 
   68              		.loc 1 48 3 is_stmt 1 view .LVU17
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 1
  107 0048 00300140 		.word	1073819648
  108              		.cfi_endproc
  109              	.LFE288:
-ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 4
+ARM GAS  C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s 			page 4
 
 
  111              		.section	.text.HAL_SPI_MspInit,"ax",%progbits
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 1
   79:Core/Src/spi.c ****     PA6     ------> SPI1_MISO
   80:Core/Src/spi.c ****     PA7     ------> SPI1_MOSI
   81:Core/Src/spi.c ****     */
-ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 5
+ARM GAS  C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s 			page 5
 
 
   82:Core/Src/spi.c ****     GPIO_InitStruct.Pin = GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7;
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 1
  183 003a DA64     		str	r2, [r3, #76]
   76:Core/Src/spi.c ****     /**SPI1 GPIO Configuration
  184              		.loc 1 76 5 view .LVU52
-ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 6
+ARM GAS  C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s 			page 6
 
 
  185 003c DB6C     		ldr	r3, [r3, #76]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 1
  227              		.global	HAL_SPI_MspDeInit
  228              		.syntax unified
  229              		.thumb
-ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 7
+ARM GAS  C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s 			page 7
 
 
  230              		.thumb_func
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 1
  260 000e 136E     		ldr	r3, [r2, #96]
  261 0010 23F48053 		bic	r3, r3, #4096
  262 0014 1366     		str	r3, [r2, #96]
-ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 8
+ARM GAS  C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s 			page 8
 
 
  111:Core/Src/spi.c **** 
@@ -459,22 +459,22 @@ ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 1
  295              		.file 8 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h"
  296              		.file 9 "Core/Inc/spi.h"
  297              		.file 10 "Core/Inc/main.h"
-ARM GAS  C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s 			page 9
+ARM GAS  C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s 			page 9
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 spi.c
-C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s:21     .text.MX_SPI1_Init:00000000 $t
-C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s:27     .text.MX_SPI1_Init:00000000 MX_SPI1_Init
-C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s:106    .text.MX_SPI1_Init:00000044 $d
-C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s:285    .bss.hspi1:00000000 hspi1
-C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s:112    .text.HAL_SPI_MspInit:00000000 $t
-C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s:118    .text.HAL_SPI_MspInit:00000000 HAL_SPI_MspInit
-C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s:221    .text.HAL_SPI_MspInit:00000064 $d
-C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s:226    .text.HAL_SPI_MspDeInit:00000000 $t
-C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s:232    .text.HAL_SPI_MspDeInit:00000000 HAL_SPI_MspDeInit
-C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s:275    .text.HAL_SPI_MspDeInit:00000024 $d
-C:\Users\joe20\AppData\Local\Temp\ccFhsYdd.s:282    .bss.hspi1:00000000 $d
+C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s:21     .text.MX_SPI1_Init:00000000 $t
+C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s:27     .text.MX_SPI1_Init:00000000 MX_SPI1_Init
+C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s:106    .text.MX_SPI1_Init:00000044 $d
+C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s:285    .bss.hspi1:00000000 hspi1
+C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s:112    .text.HAL_SPI_MspInit:00000000 $t
+C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s:118    .text.HAL_SPI_MspInit:00000000 HAL_SPI_MspInit
+C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s:221    .text.HAL_SPI_MspInit:00000064 $d
+C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s:226    .text.HAL_SPI_MspDeInit:00000000 $t
+C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s:232    .text.HAL_SPI_MspDeInit:00000000 HAL_SPI_MspDeInit
+C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s:275    .text.HAL_SPI_MspDeInit:00000024 $d
+C:\Users\joe20\AppData\Local\Temp\cc7LSgfI.s:282    .bss.hspi1:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_SPI_Init
